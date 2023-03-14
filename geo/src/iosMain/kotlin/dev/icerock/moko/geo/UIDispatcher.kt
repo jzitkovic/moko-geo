@@ -19,7 +19,7 @@ import platform.darwin.dispatch_time
 import kotlin.coroutines.CoroutineContext
 
 // temporary solution for channel
-@UseExperimental(InternalCoroutinesApi::class)
+@OptIn(InternalCoroutinesApi::class)
 internal class UIDispatcher : CoroutineDispatcher(), Delay {
     private val mQueue = dispatch_get_main_queue()
 

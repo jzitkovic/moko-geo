@@ -1,9 +1,9 @@
 [versions]
-kotlinVersion = "1.6.10"
+kotlinVersion = "1.8.10"
 androidAppCompatVersion = "1.2.0"
 androidLifecycleVersion = "2.1.0"
 playServicesLocationVersion = "18.0.0"
-coroutinesVersion = "1.6.0-native-mt"
+coroutinesVersion = "1.6.4"
 mokoParcelizeVersion = "0.8.0"
 mokoPermissionsVersion = "0.11.0"
 mokoMvvmVersion = "0.12.0"
